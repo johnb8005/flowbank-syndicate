@@ -12,6 +12,10 @@ const baseConfig = {
 
 // https://vitejs.dev/config/
 // conditional config: https://vitejs.dev/config/#conditional-config
-export default defineConfig(({ command, mode }) => {
+export default defineConfig(({ mode }) => {
+  if (mode === "ghpages") {
+    return { ...baseConfig, base: "/flowbank-syndicate/" };
+  }
+
   return baseConfig;
 });
