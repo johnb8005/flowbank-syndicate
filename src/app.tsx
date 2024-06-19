@@ -1,12 +1,9 @@
 import React from "react";
-import Welcome from "./welcome.tsx";
 import Layout from "./layout.tsx";
-import MultiLingual from "./multilingual.tsx";
-import Legal from "./legal.tsx";
-import About from "./about.tsx";
-
-
-
+import Welcome from "./content/welcome.tsx";
+import MultiLingual from "./content/multilingual.tsx";
+import Legal from "./content/legal.tsx";
+import About from "./content/about.tsx";
 
 const ProjectUpdates = () => (
     <section id="projects-updates" className="mb-8">
