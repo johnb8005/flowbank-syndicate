@@ -1,19 +1,21 @@
 
 import React from "react";
 const Footer = () => (
-    <footer className="text-white p-6">
-        <div className="container mx-auto text-center">
-            <p>&copy; 2024 FlowBank Recovery Syndicate. All rights reserved.</p>
-            <p>
-                <a
-                    href="https://github.com/johnb8005/flowbank-syndicate"
-                    className="text-green-500"
-                    target="_blank">
-                    <i className="fab fa-github mr-2"></i>GitHub Repository
-                </a>
-            </p>
-        </div>
-    </footer>
+   <footer className="text-white p-6">
+            <div className="container mx-auto text-center">
+                <p>&copy; 2024 FlowBank Recovery Syndicate. All rights reserved.</p>
+                <p>
+                    <a href="https://github.com/johnb8005/flowbank-syndicate" className="text-green-500" target="_blank">
+                        <i className="fab fa-github mr-2"></i>GitHub Repository
+                    </a>
+                </p>
+                <p>
+                    <a href="https://x.com/flowbanksyndica" className="text-blue-500" target="_blank">
+                        <i className="fab fa-x-twitter mr-2"></i>Follow us on X
+                    </a>
+                </p>
+            </div>
+        </footer>
 );
 
 const Header = () => (
