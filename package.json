@@ -12,6 +12,7 @@
   },
   "scripts": {
     "start": "vite",
-    "test": "echo \"no test\""
+    "test": "echo \"no test\"",
+    "build": "tsc && vite build"
   }
 }
