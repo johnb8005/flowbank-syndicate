@@ -1,52 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FlowBank Recovery Syndicate</title>
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-      rel="stylesheet" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
-      rel="stylesheet" />
-      <style>
-         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
         
         body {
             font-family: 'Roboto', sans-serif;
             font-weight: 300; /* Light */
         }
-        .flowbank{
-            background-color: #09d674
+        .flowbank {
+            background-color: #09d674;
         }
 
         /* Custom selection color */
-    ::selection {
-        background-color: #0088cc; /* Background color of the selected text */
-        color:#09d674
-    }
-      </style>
-  </head>
-  <body class="bg-black text-white">
+        ::selection {
+            background-color: #0088cc; /* Background color of the selected text */
+            color: #09d674;
+        }
+
+        /* Mobile-friendly styles */
+        @media (max-width: 640px) {
+            h1, h2 {
+                font-size: 1.5rem; /* Adjust font sizes for smaller screens */
+            }
+            .container {
+                padding: 0 1rem; /* Add padding for smaller screens */
+            }
+            .dropdown-content {
+                right: 0; /* Align dropdown to the right for better visibility */
+            }
+            .telegram-button, .flowbank {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body class="bg-black text-white">
     <!-- Header -->
-    <header class=" p-6 shadow-lg">
-      <div class="container mx-auto flex justify-between items-center">
-        <img
-          src="https://www.flowbank.com/hubfs/mktv/common/logos/logo-green.svg"
-          alt="FlowBank Logo"
-          class="h-8" />
-        <h1 class="text-3xl font-bold"> Recovery Syndicate</h1>
-      </div>
+    <header class="p-6 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <img src="https://www.flowbank.com/hubfs/mktv/common/logos/logo-green.svg" alt="FlowBank Logo" class="h-8" />
+            <h1 class="text-3xl font-bold">Recovery Syndicate</h1>
+        </div>
     </header>
 
     <!-- Main Content -->
     <main class="container mx-auto my-12">
- 
-
-    <!-- Main Content -->
-
- 
         <!-- Welcome Section -->
         <section id="welcome" class="mb-8">
             <h2 class="text-2xl font-bold mb-4">Welcome to the FlowBank Recovery Syndicate</h2>
@@ -79,31 +84,30 @@
         <!-- News and Updates Section -->
         <section id="news-updates" class="mb-8">
             <h2 class="text-2xl font-bold mb-4">News and Updates</h2>
-            <ul class="">
-    <li><strong>June 12, 2024:</strong> Swiss Financial Market Supervisory Authority (FINMA) initiated bankruptcy proceedings against FlowBank SA.</li>
-    <li><strong>June 13, 2024, 08:00 AM:</strong> Bankruptcy proceedings took effect.</li>
-    <li><strong>June 19, 2024:</strong> Establishment of the Recovery Syndicate.</li>
-</ul>
+            <ul>
+                <li><strong>June 12, 2024:</strong> Swiss Financial Market Supervisory Authority (FINMA) initiated bankruptcy proceedings against FlowBank SA.</li>
+                <li><strong>June 13, 2024, 08:00 AM:</strong> Bankruptcy proceedings took effect.</li>
+                <li><strong>June 19, 2024:</strong> Establishment of the Recovery Syndicate.</li>
+            </ul>
         </section>
 
-       
+        <!-- Join Us Section -->
+        <section id="join-us" class="mb-8">
+            <h2 class="text-2xl font-bold mb-4">Join Us</h2>
+            <p>By joining the FlowBank Recovery Syndicate, you become part of a dedicated group striving for financial justice. Together, we are stronger. Sign up today to access exclusive resources, stay informed, and contribute to our collective recovery efforts.</p>
+            <p class="mt-3"><a href="https://t.me/+lJSodsns6ok4ZjA0" class="flowbank text-white px-4 py-2 rounded hover:bg-green-600" target="_blank"><i class="fab fa-telegram"></i> Join Us on Telegram</a></p>
+        </section>
 
-  <!-- Join Us Section -->
-<section id="join-us" class="mb-8">
-    <h2 class="text-2xl font-bold mb-4">Join Us</h2>
-    <p>By joining the FlowBank Recovery Syndicate, you become part of a dedicated group striving for financial justice. Together, we are stronger. Sign up today to access exclusive resources, stay informed, and contribute to our collective recovery efforts.</p>
-    <p class=" mt-3"><a href="https://t.me/+lJSodsns6ok4ZjA0"  class="flowbank text-white px-4 py-2 rounded hover:bg-green-600" target="_blank"><i class="fab fa-telegram"></i> Join Us on Telegram</a></p>
-</section>
-
-<section id="legal-information" class="mb-8">
-   <div class="p-2 bg-blue-200 text-blue-700 rounded">
-<h3 class="text-xl font-semibold mb-2"><i class="fa fa-info-circle mr-2"></i> Multilingual Information</h3>
-      <ul>
-         <li><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg" alt="French Flag" class="inline-block h-4 mr-2"> Francophones: le site est pour l'instant uniquement en anglais, vous pouvez utiliser les fonctionnalités de traduction automatique pour le visualiser en français.</li>
-         <li><img src="https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg" alt="German Flag" class="inline-block h-4 mr-2"> Deutschsprachige: Die Website ist derzeit nur auf Englisch verfügbar. Sie können automatische Übersetzungsfunktionen verwenden, um sie auf Deutsch zu sehen.</li>
-      </ul>  
-   </div>
-</section>
+        <!-- Multilingual Information Section -->
+        <section id="legal-information" class="mb-8">
+            <div class="p-2 bg-blue-200 text-blue-700 rounded">
+                <h3 class="text-xl font-semibold mb-2"><i class="fa fa-info-circle mr-2"></i> Multilingual Information</h3>
+                <ul>
+                    <li><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg" alt="French Flag" class="inline-block h-4 mr-2"> Francophones: le site est pour l'instant uniquement en anglais, vous pouvez utiliser les fonctionnalités de traduction automatique pour le visualiser en français.</li>
+                    <li><img src="https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg" alt="German Flag" class="inline-block h-4 mr-2"> Deutschsprachige: Die Website ist derzeit nur auf Englisch verfügbar. Sie können automatische Übersetzungsfunktionen verwenden, um sie auf Deutsch zu sehen.</li>
+                </ul>  
+            </div>
+        </section>
 
         <!-- Legal Information Section -->
         <section id="legal-information" class="mb-8">
@@ -113,41 +117,35 @@
             <p><strong>Privacy Policy</strong></p>
             <p>We value your privacy and are committed to protecting your personal information. Please review our privacy policy for details on how we handle your data.</p>
         </section>
-
-     
     </main>
 
     <!-- Footer -->
-  
-    </main>
+    <footer class="text-white p-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 FlowBank Recovery Syndicate. All rights reserved.</p>
+            <p>
+                <a href="https://github.com/johnb8005/flowbank-syndicate" class="text-green-500" target="_blank">
+                    <i class="fab fa-github mr-2"></i>GitHub Repository
+                </a>
+            </p>
+        </div>
+    </footer>
+    <!-- JavaScript for calculating time since bankruptcy start -->
+    <script>
+        function updateTimeSince() {
+            const startTime = new Date('June 13, 2024 08:00:00').getTime();
+            const now = new Date().getTime();
+            const distance = now - startTime;
 
-    <!-- Footer -->
-   <footer class=" text-white p-6">
-    <div class="container mx-auto text-center">
-        <p>&copy; 2024 FlowBank Recovery Syndicate. All rights reserved.</p>
-        <p>
-            <a href="https://github.com/johnb8005/flowbank-syndicate" class="text-green-500" target="_blank">
-                <i class="fab fa-github mr-2"></i>GitHub Repository
-            </a>
-        </p>
-    </div>
-</footer>
-<!-- JavaScript for calculating time since bankruptcy start -->
-        <script>
-            function updateTimeSince() {
-                const startTime = new Date('June 13, 2024 08:00:00').getTime();
-                const now = new Date().getTime();
-                const distance = now - startTime;
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 
-                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            document.getElementById('time-since').innerText = `${days} days, ${hours} hours, and ${minutes} minutes`;
+        }
 
-                document.getElementById('time-since').innerText = `${days} days, ${hours} hours, and ${minutes} minutes`;
-            }
-
-            setInterval(updateTimeSince, 60000); // Update every minute
-            updateTimeSince(); // Initial call
-        </script>
-  </body>
+        setInterval(updateTimeSince, 60000); // Update every minute
+        updateTimeSince(); // Initial call
+    </script>
+</body>
 </html>
