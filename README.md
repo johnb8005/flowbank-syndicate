@@ -1,4 +1,6 @@
 # FlowBank Recovery Syndicate
+[![Test](https://github.com/johnb8005/flowbank-syndicate/actions/workflows/test.yml/badge.svg)](https://github.com/johnb8005/flowbank-syndicate/actions/workflows/test.yml)
+
 
 This repository contains the code and resources for the FlowBank Recovery Syndicate website, an independent group of depositors and stakeholders dedicated to recovering the maximum amount of funds from the FlowBank bankruptcy.
 
