@@ -21,11 +21,6 @@ const Footer = () => (
 const Header = () => (
     <header className="p-6 shadow-lg bg-black">
         <div className="container mx-auto flex justify-between items-center flex-wrap">
-            <img
-                src="https://www.flowbank.com/hubfs/mktv/common/logos/logo-green.svg"
-                alt="FlowBank Logo"
-                className="h-8 mb-4 sm:mb-0"
-            />
             <h1 className="text-3xl font-bold text-white text-center sm:text-left w-full sm:w-auto">
                 Recovery Syndicate
             </h1>
